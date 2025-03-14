@@ -31,4 +31,4 @@ const PostSchema = new mongoose.Schema({ //schema that defines the db documents 
   },
 });
 
-module.exports = mongoose.model("Post", PostSchema); //export the model with the key word of "Post"
+module.exports = mongoose.model("Post", PostSchema); //export the model with the key word of "Post", it also makes mongo db create a Post collection called posts. Note you can put a third argument to name your collection.
